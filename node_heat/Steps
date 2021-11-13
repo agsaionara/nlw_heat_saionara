@@ -1,0 +1,43 @@
+Nessa aula criaremos o backend da aplicação utlizando NodeJS. 
+Nesse projeto iremos utilizar Typescript, que auxilia no aumento 
+da produtividade em desenvolvimento; vamos utilizar o Prisma ORM,
+para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
+
+
+$yarn add express 
+
+$yarn add -D @types/express typescript ts-node-dev
+
+$yarn tsc --init
+    strict -> false
+    target -> es2017
+
+Instalando o PRISMA
+$yarn add prisma -D
+$yarn prisma init
+
+GITHUB Auth
+    Dentro do site so GITHUB
+25b1eae752b7d265f5ea9c84d595adc52df3a60c
+
+$yarn add dotenv
+
+$yarn add axios
+
+$yarn add @types/axios -D
+
+$yarn add jsonwebtoken
+
+$yarn add @types/jsonwebtoken -D
+
+$yarn prisma migrate dev
+
+$yarn prisma studio
+
+$yarn add socket.io
+
+$yarn add @types/socket.io -D
+
+$yarn add cors
+
+$yarn add @types/cors -D
