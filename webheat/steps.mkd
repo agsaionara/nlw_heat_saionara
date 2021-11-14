@@ -1,0 +1,43 @@
+# Guia de criação da aplicação web com Vite 
+
+```
+$yarn create vite my-vue-app --templat react-ts 
+
+$yarn
+```
+
+### Para rodar a aplicação use:
+```
+$yarn dev
+```
+
+### Exclua os arquivos da pasta /src menos os:
+>App.tsx
+
+>main.tsx
+
+>vite-env.d.ts
+
+### Usando o pre processador no CSS - o SASS
+```
+$yarn add sass
+```
+
+### Usar icones
+```
+$yarn add react-icons
+```
+### Integrando com o backEnd
+> Crie uma pasta /services
+
+> Crie um arquivo dentro da pasta api.ts
+
+>Comunicação entre as partes com Axios
+```
+$yarn add axios
+```
+
+>Clinete do sockete para ouvir as coisas no tempo real
+```
+$yarn add socket.io-client
+```
