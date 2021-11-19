@@ -18,7 +18,7 @@ $yarn prisma init
 
 GITHUB Auth
     Dentro do site so GITHUB
-25b1eae752b7d265f5ea9c84d595adc52df3a60c
+
 
 $yarn add dotenv
 
